@@ -1,0 +1,189 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera aplicación</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/app3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/imagencambiante.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>Información sobre el volcán Popocatépletl</h1>
+
+    </div>  
+
+<div>
+                    <!-- Start WOWSlider.com -->
+<iframe src="wow/index.html" style="width:100%;height:12.7%;max-width:100%;overflow:hidden;border:#66F;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com --> 
+<div>
+<div>
+        <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+          <h1>Ubicación</h1>
+           <div>
+   <p>El Popocatépetl es un estratovolcán o volcán compuesto. Se le describe como un volcán activo, de hecho, el más activo de México. Descansa al sur de la Ciudad de México sobre los estados de Puebla, Morelos y México, en una provincia fisiográfica nombrada Eje Neovolcánico o Eje Volcánico Transversal, que es una cadena de volcanes que incluye al Iztaccíhuatl, al Paricutín y al Nevado de Toluca, entre otros</p><img src="imagenes/imagen1.jpg" width="50%" height="50%">
+           <br>
+           </div>
+        </div>
+</div>   
+</div>
+	 <!---------------------->
+        <div>
+        <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+          <h1>Tamaño</h1>
+           <div>
+   <p>De apariencia casi simétrica, cubre una superficie de 283,192.53 hectáreas y tiene una altura de 5,426 metros sobre el nivel del mar. Posee un cráter elíptico de paredes empinadas con una profundidad de 150 metros desde el labio inferior, un diámetro mayor de 900 metros y un ancho total de 400 x 600 metros.</p><img src="imagenes/imagen2.jpg" width="50%" height="50%">
+           <br>
+           </div>
+        </div>
+</div>
+        <!---------------------->
+       <div>
+        <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+          <h1>Antigüedad</h1>
+           <div>
+   <p>El Popocatépetl es un volcán geológicamente joven. Se cree que tiene unos 730,000 años de antigüedad y que es remanente de volcanes antiguos que colapsaron. Su historia comenzó con la formación del volcán Nexpayantla a través de la expulsión de flujos de lava andesítica y dacítica. Años después, este volcán colapsó y en consecuencia se formó una caldera, es decir, una depresión amplia y profunda debajo de la cual se halla una cámara de magma.</p><img src="imagenes/imagen3.jpg" width="50%" height="50%">
+           <br>
+           </div>
+        </div>
+</div>
+        <!---------------------->
+<div>      
+  <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+          <h1>Historia o leyenda</h1>
+           <div>
+   <p>Hace tiempo, cuando los aztecas dominaban el Valle de México, los otros pueblos debían obedecerlos y rendirles tributo, pese a su descontento pero un día, cansado de la opresión, un cacique de Tlaxcala decidió pelear por la libertad de su pueblo y empezó una terrible guerra entre aztecas y tlaxcaltecas.</p><br>
+   <p>La bella princesa Iztaccíhuatl, hija del cacique de Tlaxcala, se había enamorado del joven Popocatépetl, uno de los principales guerreros de este pueblo. Ambos se profesaban un amor inmenso, por lo que antes de ir a la guerra, el joven pidió al padre de la princesa la mano de ella si regresaba victorioso. El cacique de Tlaxcala aceptó el trato, prometiendo recibirlo con el festín del triunfo y el lecho de su amor.</p><br>
+   <p>El valiente guerrero se preparó con hombres y armas, partiendo a la guerra después de escuchar la promesa de que la princesa lo esperaría para casarse con él a su regreso. Al poco tiempo, un rival de Popocatépetl inventó que éste había muerto en combate. Al enterarse, la princesa Iztaccíhuatl lloró amargamente la muerte de su amado y luego murió de tristeza.</p><br>
+   <p>Popocatépetl venció en todos los combates y regresó triunfante a su pueblo, pero al llegar, recibió la terrible noticia de que la hija del cacique había muerto. De nada le servían la riqueza y poderío ganados si no tenía su amor.</p><br>
+   <p>Entonces, para honrarla y a fin de que permaneciera en la memoria de los pueblos, Popocatépetl mandó que 20,000 esclavos construyeran una gran tumba ante el Sol, amontonando diez cerros para formar una gigantesca montaña.</p><br>
+   <p>Desconsolado, tomó el cadáver de su princesa y lo cargó hasta depositarlo recostado en su cima, que tomó la forma de una mujer dormida. El joven le dio un beso póstumo, tomó una antorcha humeante y se arrodilló en otra montaña frente a su amada, velando su sueño eterno. La nieve cubrió sus cuerpos y los dos se convirtieron, lenta e irremediablemente, en volcanes.</p><br>
+   <p>Desde entonces permanecen juntos y silenciosos Iztaccíhuatl y Popocatépetl, quien a veces se acuerda del amor y de su amada; entonces su corazón, que guarda el fuego de la pasión eterna, tiembla y su antorcha echa un humo.</p><br>
+   <p>Durante muchos años y hasta poco antes de la Conquista, las doncellas muertas por amores desdichados eran sepultadas en las faldas del Iztaccíhuatl.</p><br>
+   <p>En cuanto al cobarde tlaxcalteca que por celos mintió a Iztaccíhuatl sobre la muerte de Popocatépetl, desencadenando esta tragedia, fue a morir desorientado muy cerca de su tierra, también se convirtió en una montaña, el Pico de Orizaba y se cubrió de nieve. Le pusieron por nombre Citlaltépetl, o “Cerro de la estrella” y desde allá lejos vigila el sueño eterno de los dos amantes a quienes nunca, jamás podrá separar.</p><br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen4','','imagenes/imagencambiante.jpg',1)"><img src="imagenes/imagen4.jpg" width="404" height="235" id="imagen4"></a> <br>
+           </div>
+        </div>
+</div>    
+    <!---------------------->
+<div>        
+ <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+          <h1>Actividad volcánica</h1>
+           <div>
+   <p> 
+Abril 13 11:00 h (Abril 13 16:00 GMT) 
+
+En las últimas 24 horas, por medio de los registros sísmicos del sistema de monitoreo del volcán Popocatépetl, se han identificado 105 exhalaciones de baja intensidad y dos explosiones, una el día de ayer a las 11:19 h (imagen 1), y la segunda hoy a las 07:26 h (imagen 2) . Se tuvo visibilidad parcial y se observó que los vientos dispersaron las emisiones de manera preferencial al noreste.
+
+Durante la noche se observó ligera incandescencia que aumentaba al momento de algunas de las exhalaciones (imagen 3). Desde hoy por la mañana y hasta el momento de este reporte se ha observado una emisión de vapor de agua y gas constante que los vientos dispersan de manera preferencial al este-sureste (imagen 4) . 
+
+Los demás parámetros de monitoreo permanecen sin cambios importantes. 
+
+El CENAPRED exhorta a NO ACERCARSE al volcán y sobre todo al cráter, por el peligro que implica la caída de fragmentos balísticos (imagen 5). 
+
+El Semáforo de Alerta Volcánica del Popocatépetl se encuentra en Amarillo Fase 2. 
+
+Los escenarios previstos para esta fase son: 
+
+1. Que continúe la actividad explosiva de escala baja a intermedia. 
+
+2. Lluvias de ceniza leves a moderadas en poblaciones cercanas. 
+
+3. Posibilidad de flujos piroclásticos y flujos de lodo de corto alcance.</p><img src="imagenes/imagen5.jpg" width="50%" height="50%">
+<p>Para mayor información, pinche <a href="http://www.cenapred.gob.mx/reportesVolcan/BuscarReportesVolcan?optBusqueda=1">aquí</a></p>
+           <br>
+           </div>
+        </div>
+</div>    
+     <!---------------------->
+<div>     
+<div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+          <h1>Medidas preventivas</h1>
+           <div>
+   <ol>
+  <li>Limpiar ojos y garganta con agua pura. </li>
+  <li>Utilizar lentes de armazón y evitar los lentes de contacto para reducir la irritación ocular.  </li>
+  <li>Cerrar ventanas o cubrirlas y permanecer lo más posible dentro de la casa.</li>
+ </ol>
+  
+    <img src="imagenes/imagen7.png" width="50%" height="50%">
+           <br>
+           </div>
+        </div>
+</div>    
+    <!---------------------->
+<div>    
+ <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+          <h1>Monitoreo</h1>
+           <div>
+   <p>Las páginas que están constantemente checando la actividad del volcán y son de fíar, serían: <a href="http://www.cenapred.unam.mx:8080/monitoreoPopocatepetl/"> CENAPRED </a></p><img src="imagenes/imagen6.jpg" width="50%" height="50%">
+           <br>
+           </div>
+        </div>
+</div>    
+    <!---------------------->
+<div>   
+  <div data-role="main" class="ui-content">
+    	<div data-role="collapsible" data-content-theme="false">
+          <h1>Estados que pueden resultar afectados en caso de emergencia</h1>
+           <div>
+   <p></p><img src="imagenes/imagen8.jpg" width="50%" height="50%">
+           <br>
+           </div>
+        </div>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+	<div>
+    	<img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion Tres</h4>
+       <h4>Ericka Lisset Lima Álamo</h4>
+    </div>
+</div>
+</div>
+</div>
+   </div>
+</body>
+</html>
